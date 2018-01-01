@@ -1,9 +1,9 @@
-name: GuiShop
-main: GuiShop\Main
-version: 0.0.1
-api: 3.0.0-ALPHA9
-author: StrafelessPvP
-description: PlexiumPE-ShopGUI
+name: ShopUI
+main: ShopUI\Main
+version: 0.0.2
+api: 3.0.0-ALPHA10
+author: 0pGam3rMC
+description: RegulatedFactionsPE-ShopGUI
 commands:
  shop:
-  description: Opens the shop gui
+  description: Opens server shop!
