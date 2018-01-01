@@ -1,5 +1,5 @@
-name: ShopUI
-main: ShopUI\Main
+name: GuiShop
+main: GuiShop\Main
 version: 0.0.2
 api: 3.0.0-ALPHA10
 author: 0pGam3rMC
