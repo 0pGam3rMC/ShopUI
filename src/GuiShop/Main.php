@@ -29,67 +29,67 @@ class Main extends PluginBase implements Listener {
   */
 public $Blocks = [
     "ICON" => ["Blocks",2,0],
-    "Oak Wood" => [17,0,500,100],
-    "Birch Wood" => [17,2,500,100],
-    "Spruce Wood" => [17,1,500,100],
-    "Dark Oak Wood" => [162,1,500,100],
-	"Cobblestone" => [4,0,700,200],
+    "Oak Wood" => [17,0,500,1000],
+    "Birch Wood" => [17,2,5000,1000],
+    "Spruce Wood" => [17,1,5000,1000],
+    "Dark Oak Wood" => [162,1,5000,1000],
+	"Cobblestone" => [4,0,7000,2000],
 	"Obsidian" => [49,0,10000,4500],
-	"Bedrock" => [7,0,500000,10000],
-	"Sand " => [12,0,200,75],
-    "Sandstone " => [24,0,400,275],
-	"Nether Rack" => [87,0,100,50],
-    "Glass" => [20,0,50,25],
-    "Glowstone" => [89,0,1000,200],
-    "Sea Lantern" => [169,0,1000,200],
-	"Grass" => [2,0,100,50],
-	"Dirt" => [3,0,100, 50],
-    "Stone" => [1,0,1500,100]
+	"Bedrock" => [7,0,50000,10000],
+	"Sand " => [12,0,2000,750],
+    "Sandstone " => [24,0,4000,2750],
+	"Nether Rack" => [87,0,1000,500],
+    "Glass" => [20,0,5000,250],
+    "Glowstone" => [89,0,10000,2000],
+    "Sea Lantern" => [169,0,10000,2000],
+	"Grass" => [2,0,10000,1500],
+	"Dirt" => [3,0,10000, 500],
+    "Stone" => [1,0,15000,1000]
   ];
 
   public $Ores = [
     "ICON" => ["Ores",266,0],
-    "Coal" => [263,0,3500,150],
-    "Iron Ingot" => [265,0,4000,2500],
-    "Gold Ingot" => [266,0,2750,1000],
-    "Diamond" => [264,0,5000,3750]
+    "Coal" => [263,0,6400,3500],
+    "Iron Ingot" => [265,0,8500,5500],
+    "Gold Ingot" => [266,0,7500,7500],
+    "Diamond" => [264,0,10000,9500]
   ];
 
   public $Tools = [
     "ICON" => ["Tools",278,0],
-    "Diamond Pickaxe" => [278,0,5000,250],
-    "Diamond Shovel" => [277,0,5000,250],
-    "Diamond Axe" => [279,0,5000,250],
-    "Diamond Hoe" => [293,0,5000,250],
-    "Diamond Sword" => [276,0,7500,375],
+    "Diamond Pickaxe" => [278,0,5000,2500],
+    "Diamond Shovel" => [277,0,5000,2500],
+    "Diamond Axe" => [279,0,5000,2500],
+    "Diamond Hoe" => [293,0,5000,2500],
+    "Diamond Sword" => [276,0,7500,3750],
     "Bow" => [261,0,400,200],
     "Arrow" => [262,0,25,5]
   ];
 
   public $Armor = [
     "ICON" => ["Armor",311,0],
-    "Diamond Helmet" => [310,0,3500,500],
-    "Diamond Chestplate" => [311,0,7500,1250],
-    "Diamond Leggings" => [312,0,3500,750],
-    "Diamond Boots" => [313,0,3500,500]
+    "Diamond Helmet" => [310,0,1200,5000],
+    "Diamond Chestplate" => [311,0,15000,12500],
+    "Diamond Leggings" => [312,0,1100,7500],
+    "Diamond Boots" => [313,0,7500,5000]
   ];
 
   public $Farming = [
     "ICON" => ["Farming",293,0],
-    "Pumpkin" => [86,0,1000,800],
-    "Melon" => [360,13,5000,4500],
-    "Carrot" => [391,0,1500,600],
-    "Potato" => [392,0,800,575],
-    "Sugarcane" => [338,0,300,150],
-    "Wheat" => [296,6,100,65],
-    "Pumpkin Seed" => [361,0,20,10],
+    "Pumpkin" => [86,0,10000,8000],
+    "Melon" => [360,13,12500,10000],
+    "Carrot" => [391,0,4500,3500],
+    "Potato" => [392,0,800,500],
+    "Sugarcane" => [338,0,3000,1500],
+    "Wheat" => [296,6,1000,650],
+    "Pumpkin Seed" => [361,0,2000,1000],
     "Melon Seed" => [362,0,2500,1250],
-    "Seed" => [295,0,20,10]
+    "Seed" => [295,0,2000,100]
   ];
 
   public $Food = [
     "ICON" => ["Food",364,0],
-	"Cooked Chicken" => [366,0,10,5],
+	"Cooked Chicken" => [366,0,1000,500],
     "Steak" => [364,0,1000,250],
     "Golden Apple" => [322,0,25000,10000],
     "Enchanted Golden Apple" => [466,0,50000,10000]
@@ -109,12 +109,12 @@ public $Blocks = [
 
   public $Raiding = [
     "ICON" => ["Raiding",46,0],
-    "Flint & Steel" => [259,0,100,50],
-    "Torch" => [50,0,500,100],
-	"Packed Ice " => [174,0,500,250],
-    "Water" => [9,0,500000,250],
+    "Flint & Steel" => [259,0,1000,50],
+    "Torch" => [50,0,5000,100],
+	"Packed Ice " => [174,0,50000,25000],
+    "Water" => [9,0,50000,25000],
     "Redstone" => [331,0,2500,75],
-    "Chest" => [54,0,100,50]
+    "Chest" => [54,0,10000,500]
   ];
 
   public function onEnable(){
@@ -268,7 +268,7 @@ public $Blocks = [
               if(EconomyAPI::getInstance()->myMoney($player) > $cost){
                 $player->getInventory()->addItem(Item::get($id,$damage,$amount));
                 EconomyAPI::getInstance()->reduceMoney($player, $cost);
-                $player->sendMessage(TF::BOLD . TF::DARK_GRAY . "(" . TF::GREEN . "!" . TF::DARK_GRAY . ") " . TF::RESET . TF::GRAY . "You purchased $amount $iname for $$cost");
+                $player->sendMessage(TF::BOLD . TF::DARK_GRAY . "(" . TF::GREEN . "!" . TF::DARK_GRAY . ") " . TF::RESET . TF::GRAY . "You purchased $amount $iname for $$cost from SkyRealmPE store!");
               }else{
                 $player->sendMessage(TF::BOLD . TF::DARK_GRAY . "(" . TF::RED . "!" . TF::DARK_GRAY . ") " . TF::RESET . TF::GRAY . "You do not have enough money to buy $amount $iname");
               }
