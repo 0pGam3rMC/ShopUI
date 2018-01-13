@@ -3,7 +3,7 @@ main: GuiShop\Main
 version: 0.0.2
 api: 3.0.0-ALPHA10
 author: 0pGam3rMC
-description: RegulatedFactionsPE-ShopGUI
+description: §aSkyREALMPE Shop!
 commands:
  shop:
-  description: Opens server shop!
+  description: §dOpens shop for server ! §9Made by Crafter20162017
